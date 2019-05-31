@@ -91,7 +91,7 @@ export default {
         return this.$route.meta.hideControl
       },
       btnMark(){
-        if(this.saveList.source[0] == 'blank'){
+        if(this.saveList.source[0] == 'http://xia2.kekenet.com/Sound/song/Bandari/Bandari36.mp3'){
           return false
         }else{
           return true
