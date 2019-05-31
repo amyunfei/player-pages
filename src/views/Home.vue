@@ -80,7 +80,9 @@ export default {
     this.$nextTick(() => {
       new Swiper(".swiper-container", {
         slidesPerView: 3,
-        freeMode: true
+        freeMode: true,
+        observer:true,//修改swiper自己或子元素时，自动初始化swiper
+        observeParents:true
       });
     });
   }
