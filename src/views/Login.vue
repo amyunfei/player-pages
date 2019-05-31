@@ -53,7 +53,7 @@ export default {
               this.$router.replace("/home");
             } else {
               if (key == this.data.length - 1) {
-                this.msg = "用户名或者密码不正确";
+                this.msg = "Check your username and password is correct or not!";
               }
             }
           });
