@@ -359,9 +359,9 @@ export default {
   );
 }
 
-.app.nightMode .container .music .music-list .music-item .music-l {
+/* .app.nightMode .container .music .music-list .music-item .music-l {
   text-shadow: 0.05rem 0 0.05rem #fff;
-}
+} */
 
 .app.nightMode .container .music .music-list .music-item .music-r i {
   font-size: 1rem;
