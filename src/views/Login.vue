@@ -53,7 +53,6 @@ export default {
               this.$router.replace("/home");
             } else {
               if (key == this.data.length - 1) {
-                console.log(111);
                 this.msg = "用户名或者密码不正确";
               }
             }
