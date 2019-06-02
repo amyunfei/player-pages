@@ -92,6 +92,7 @@ export default {
 <style scoped>
 .container {
   width: 100%;
+  height: 100%;
   position: relative;
 }
 
@@ -323,7 +324,9 @@ export default {
 .container .footer .right i:nth-child(2) {
   font-size: 1.2rem;
 }
-
+.app.nightMode .container{
+  background: #000;
+}
 .app.nightMode .container .top {
   background: linear-gradient(to top, #000 0%, #363b68 30%);
 }
