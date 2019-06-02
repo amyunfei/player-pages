@@ -69,7 +69,14 @@ export default {
         ).toFixed(2);
       }
       if (this.line >= 100) {
-        this.nextP(this.playIndex + 1);
+        this.$store.commit('pause')
+        if(this.saveList.source.length == 1){
+          setTimeout(()=>{
+            this.nextP(this.playIndex)
+          },0)
+        }else{
+          this.nextP(this.playIndex + 1)
+        }
       }
     },
     down(e){//按下事件
